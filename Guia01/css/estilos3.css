@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body{
+        margin: 0;
+        background-color: #111D13;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #A1CCA5;
+        
+}
+
+.Historia{
+    margin-right: 2%;
+    text-align: justify;
+}
+.Comienzo{
+    margin-left: 22%;
+}
+.estudios{
+    margin-left: 22%;
+}
+.estudios2{
+    margin-left: 3%;
+}
+.imagen{
+    position:absolute;
+    width: 25%
+}
+
+p{
+    font-size: 20px;
+}
+
+header{
+        padding: 1%;
+        background-color: #415D43;
+        text-align: center;
+        color: #A1CCA5;
+        font-size: 3em;
+        font-family: 'Style Script', cursive;
+}

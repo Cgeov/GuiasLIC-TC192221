@@ -1,0 +1,141 @@
+.volver{
+    position: absolute;
+    height: 16.63%;
+    width: 8%;
+    background-color: #A7ADC6;
+    cursor: pointer;
+    border: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    transition: linear 0.5s;
+}
+.volver:hover{
+    background-color: #5F4B66;
+    color: white;
+    border-radius: 15px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 5.36%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 49.8%;
+    font-size: 33px;
+  }
+  
+  .button1 {
+    background-color:#56667A; 
+    color: black; 
+  }
+  
+  .button1:hover {
+    background-color: #63228F;
+    color: white;
+    border-radius: 30px;
+  }
+  
+  .button2 {
+    background-color: #56667A; 
+    color: black; 
+  }
+  
+  .button2:hover {
+    background-color: #6C48FA;
+    color: white;
+    border-radius: 30px;
+  }
+  
+  .button3 {
+    background-color: #56667A; 
+    color: black; 
+  }
+  
+  .button3:hover {
+    background-color: #7B36E3;
+    color: white;
+    border-radius: 30px;
+  }
+  
+  .button4 {
+    background-color: #56667A;
+    color: black;
+  }
+  
+  .button4:hover {
+      background-color: #3643E3;
+      color: white;
+      border-radius: 30px;
+    }
+  
+  .button5 {
+    background-color: #56667A;
+    color: black;
+  }
+  
+  .button5:hover {
+    background-color: #3D62FD;
+    color: white;
+    border-radius: 30px;
+  }
+
+
+#simbolos{
+    text-align: center;
+}
+.simbolos{
+    width: 260px;
+    height: 170px;
+}
+.simbolos1{
+    width: 360px;
+    height: 270px;
+}
+body{
+    margin: 0;
+    background-color: #56667A;
+    color: #E6E6E6;
+    font-family: Georgia,"Times New Roman", Times, serif;
+}
+.titulos{
+    background-color: #2C1320;
+    width: 98%;
+    padding: 1%;
+    color: #E6E6E6;
+    text-decoration: underline;
+}
+.titulos1{
+    background-color: #2C1320;
+    width: 98%;
+    padding: 1%;
+    color: #E6E6E6;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.tablita{
+    margin: 1%;
+    font-size: 1.2em;
+    max-width: 100%;
+    border: 1px;
+    color: white;
+}
+table th{
+    background-color: #5F4B66;
+}
+table td{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    padding-top: 10px;
+    background-color: #A7ADC6;
+}
+footer{
+    font-family: serif;
+    width: 100%;
+    background-color: #2C1320;
+    font-size: 20px;
+}

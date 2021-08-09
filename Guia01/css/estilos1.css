@@ -1,0 +1,69 @@
+footer{
+        background-color:#505A5B;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        padding: 1%;
+    }
+    #tablita th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #505A5B;
+        color: white;
+    }
+    header{
+        background-color: #505A5B;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: 45px;
+    }
+    table{
+        text-align: center;
+        width: 100%;
+    }
+    
+    body{
+        background-color: #343F3E;
+        color: #BDBDBD;
+        margin: 0;
+    }
+    
+    .Contenedor {
+        position: relative;
+        width: 100%;
+    }
+    
+    .image {
+        display: block;
+        width: 320px;
+        max-width:100%;
+        height:auto;
+        margin-left: 15%;
+    }
+
+    .transicion {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #343F3E;
+    }
+
+    .Contenedor:hover .transicion {
+        opacity: 1;
+    }
+
+    .texto {
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family:monospace;
+    }
