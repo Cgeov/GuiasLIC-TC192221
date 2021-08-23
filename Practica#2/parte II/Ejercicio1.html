@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title></title>
+</head>
+
+<body>
+    <h3>Al ajustar pantalla se observa el funcionamiento del img-responsive cambiado este su tamaño autoamticamente</h3>
+    <div class="container">
+        <div class="col-xs-4"><img src="img/cheems.jpg" class="img-responsive"></div>
+        <div class="col-xs-4"><img src="img/cheems.jpg" class="img-rounded"></div>
+        <div class="col-xs-4"><img src="img/cheems.jpg" class="img-circle"></div>
+    </div>
+</body>
+</html>
+
+<style>
+    .row{
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    
+    div[class^="col-"]{
+        border: 1px solid #AAA;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: white;
+    }
+    body{
+        background-color: #B0BEC5;
+    }
+    @media(min-width:768px){
+        body{
+            background-color: #FFB74D;
+        }
+    }
+    @media(min-width:992px){
+        body{
+            background-color: #81C784;
+        }
+    }
+    @media(min-width:1200px){
+        body{
+            background-color: #5C6BC0;
+        }
+    }
+</style>
